@@ -5,10 +5,11 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
-header {
-    font-family: 'Poppins', sans-serif;
+header,
+main {
     max-width: 1300px;
     margin: 3% auto;
 }
@@ -79,6 +80,115 @@ hr {
 
 .header-right img {
     width: 100%;
+}
+
+
+/*------------------------------
+    All group and blog area
+ ------------------------ -------*/
+.blog-container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.blog-left-events {
+    display: flex;
+    flex-direction: column;
+    background: #161616;
+    height: 300px;
+    border-radius: 10px;
+    width: 90%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-left-events a {
+    text-decoration: none;
+}
+
+.blog-left-bg-white {
+    color: #161616;
+    padding: 16px;
+    background: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 25px;
+    width: 190px;
+}
+
+#blog-left-red-bg {
+    color: white;
+    padding: 16px;
+    background: #DD0000;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 190px;
+}
+
+/* ----------------------
+blog right area
+------------------------- */
+.blog-right-news {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.blog {
+    margin-right: 19px;
+    margin-bottom: 19px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.blog-img {
+    width: 100%;
+}
+
+.blog-info {
+    padding: 13px;
+}
+
+.blog-info-details a {
+    text-decoration: none;
+    border: 1px solid #161616;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #161616;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.blog-info-details .blog-info-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgb(22, 22, 22);
+    margin-bottom: 0px;
+}
+
+.blog-icon {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.blog-icon i {
+    margin-right: 2%;
+    color: #161616;
+    font-size: 20px;
+}
+
+.blog-icon p {
+    margin-right: 10%;
+    color: rgba(22, 22, 22, 0.7);
 }
 
 /* --------------------------
