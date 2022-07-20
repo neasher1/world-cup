@@ -151,6 +151,28 @@ blog right area
     width: 100%;
 }
 
+/* match site-2nd website start style */
+.blog-dtls {
+    padding: 20px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-dtls p {
+    margin: 0px 10px;
+}
+
+.blog-img-match {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* match site-2nd website end style */
+
 .blog-info {
     padding: 13px;
 }
@@ -189,6 +211,22 @@ blog right area
 .blog-icon p {
     margin-right: 10%;
     color: rgba(22, 22, 22, 0.7);
+}
+
+.btn-tablet {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-tablet a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 12px 30px;
+    background: #DD0000;
+    border-radius: 5px;
+    font-size: 24px;
+    display: none;
 }
 
 /* --------------------------
